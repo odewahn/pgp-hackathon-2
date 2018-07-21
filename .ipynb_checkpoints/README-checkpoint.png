@@ -1,0 +1,22 @@
+# Install conda
+
+wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+
+# Install conda
+
+sudo bash Anaconda-latest-Linux-x86_64.sh
+
+# Install Jupyter Lab
+
+conda install jupyterlab
+
+
+# Start jupyter
+
+```
+jupyter lab --port 9999 --ip 0.0.0.0
+```
+
+Be sure that you bind to port `0.0.0.0` 
+
+
